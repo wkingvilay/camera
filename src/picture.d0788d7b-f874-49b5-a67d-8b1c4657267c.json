@@ -1,4 +1,5 @@
 {
+    "id": "d0788d7b-f874-49b5-a67d-8b1c4657267c",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,6 +55,39 @@
         "tabNavigationOptions": {}
     },
     "children": [
+        {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 20,
+                "Width": 40,
+                "X": 249,
+                "Y": 445,
+                "RelativeX": 249,
+                "RelativeY": 445,
+                "ResizeMode": "STRETCH",
+                "ParentId": "d0788d7b-f874-49b5-a67d-8b1c4657267c",
+                "position": "absolute",
+                "edgeOffsets": 445,
+                "style": {
+                    "position": "absolute",
+                    "left": "58%",
+                    "top": "67.15001874062969%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "2c9b79a9-37db-4a4d-b0fc-3eba1874367c",
+            "thunkableVersion": 444,
+            "name": "Switch1"
+        },
         {
             "type": "Label",
             "translatedName": "Label",
@@ -490,7 +524,6 @@
             "name": "Image2"
         }
     ],
-    "id": "d0788d7b-f874-49b5-a67d-8b1c4657267c",
     "thunkableVersion": 444,
     "name": "picture"
 }
